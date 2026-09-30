@@ -1,0 +1,3 @@
+Starting command 2: child 3726 pid of parent 3724
+Result of test/A2.txt * test/W2.txt + test/B2.txt = [701 151 191 51 11]
+Finished child 3726 pid of parent 460

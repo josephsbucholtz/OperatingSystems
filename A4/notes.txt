@@ -1,0 +1,23 @@
+A4 NOTES:
+
+OUTPUT:
+$ cat 2353.out
+Starting command 1: child 2353 pid of parent 2234
+ [same output as assignment 1]
+Finished child 2353 pid of parent 2234
+
+$ cat 2353.err
+Exited with exitcode = 0
+
+
+CODE:
+// must be put into a new file called {childPID}.out
+printf("Starting command [commandline]: child [childPID] pid of parent [parentPID]");
+matrixmult output. //Already complete
+printf(Finished child [childPID] pid of parent [parentPID]);
+
+// must be put into a new file called {childPID}.err
+if (killed by signal) { printf("Killed with signal [S]")};
+else {
+    printf("Exited with exitcode = [childexitcode]");
+}

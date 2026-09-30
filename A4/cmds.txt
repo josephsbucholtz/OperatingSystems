@@ -1,0 +1,5 @@
+./A1/matrixmult test/A1.txt test/W1.txt test/B1.txt
+./A1/matrixmult test/A2.txt test/W2.txt test/B2.txt
+./A1/matrixmult test/A3.txt test/W3.txt test/B3.txt
+./A1/matrixmult test/wrongfilename.txt
+sleep 10
